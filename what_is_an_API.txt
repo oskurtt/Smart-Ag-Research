@@ -1,0 +1,24 @@
+API stands for Application Programming Interface
+
+API lets your service communicate wiht other services wihtout having to know how they're implemented.
+This allows simplification of app development, saves time and money. 
+
+Buisinesses often need to adapt quickly in response to the market where new compeitors are constantly creating
+new services for the industry. Thus, it's important to use Cloud services to deploy innovative applications which 
+relies on services provided by APIs.
+
+For example:
+Book store utilizes a cloud app to let customers check book avaiability. This app is expensive, time consuming, and
+limited by platforms. Alternatively, you can use an API.
+Benefits:
+- letting customers access data via API helps collect information in a single place
+- book store can make changes to its internal systems without impacting customers
+- developers can work on more features/apps to offer more services for customers leading to higher sales
+
+You can also offer your API services to other partners of your company or the public. 
+Benefits:
+- create new forms of revenue
+- expand your brand
+- increase development/innovation with the help of external collaborations
+
+Remote APIs:
