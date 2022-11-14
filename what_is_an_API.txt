@@ -22,3 +22,33 @@ Benefits:
 - increase development/innovation with the help of external collaborations
 
 Remote APIs:
+- designed to interact through a communications network
+- remote refers to manipulations by the API outside the computer making the request
+- remote APIs typically use HTTP 
+
+SOAP vs REST:
+- SOAP (Simple Object Acess Protocol)
+- SOAP uses XML for thier message format and receive requests via HTTP or SMTP
+- SOAP makes it easier for apps that are ran in different environment or languages
+- REST (Representational State Transfer)
+- SOAP is a protocal whereas REST is an architectural style
+
+6 constraints for RESTful APIs:
+- client-server architecture: REST is composed of clients, servers, and resources, and handles
+  request throught HTTP
+- Statelessness: no client content is stored on the server between requests. Info
+  is stored with the client
+- Cacheability: caching can eliminate the need for some client-server interactions
+- Layered system: client server interaction are mediated by additional layers which
+  offer additional features such as load, balancing, shared caches, or security
+- code on demand: servers can extend functionality of a client by transferring executable
+  code
+- uniform interface: core to design of RESTful APIs
+	- resource identification in requests: Resources are identified in requests and are separate
+          from the representations returned to the client
+	- Resource manipulation through representations: Clients receive files that represent resources. 
+	  These representations must have enough information to allow modification or deletion.
+	- Self-descriptive messages: Each message returned to a client contains enough information to 
+	  describe how the client should process the information.
+	- Hypermedia as the engine of application state: After accessing a resource, the REST client 
+	  should be able to discover through hyperlinks all other actions that are currently available
